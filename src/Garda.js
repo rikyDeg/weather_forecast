@@ -21,10 +21,11 @@ class Garda extends React.Component {
           </Grid>
           <Grid item xs={12}>
             <Paper>
-              <img alt="previsioni" src="https://www.ilmeteo.it/portale/files/ilmeteo/ensemble/graph-8510.png" />
+              <div>
+                <iframe src="https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_compatto/2717/ffffff/fc9b2a/5e5e5e/ffffff/it" width="382" height="192" frameBorder="0"></iframe><br /><a href="https://www.3bmeteo.com/meteo/farra+dalpago" >Meteo Farra d'alpago</a></div>
             </Paper>
           </Grid>
-      </Grid>
+        </Grid>
       </Container>
     );
   }
